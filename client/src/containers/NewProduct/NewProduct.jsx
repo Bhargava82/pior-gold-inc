@@ -18,7 +18,7 @@ const NewProduct = () => {
       })
       .catch((err) => {
         console.log(err);
-        alert.setAlert({
+        alert({
           message: "Failed to create new product.",
           type: "danger",
         });

@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav>
       <div className="nav-wrapper">
         <Link to="/" className="brand-logo">
-          Pior Gold
+          Sone Ke Sikke
         </Link>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>

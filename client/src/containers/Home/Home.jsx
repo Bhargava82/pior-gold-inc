@@ -24,7 +24,7 @@ const Home = () => {
       })
       .catch((err) => {
         console.log(err);
-        alert.setAlert({
+        alert({
           message: "No featured products found!",
           type: "danger",
         });
