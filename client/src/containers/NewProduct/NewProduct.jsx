@@ -18,10 +18,10 @@ const NewProduct = () => {
       })
       .catch((err) => {
         console.log(err);
-        alert({
-          message: "Failed to create new product.",
-          type: "danger",
-        });
+        // alert({
+        //   message: "Failed to create new product.",
+        //   type: "danger",
+        // });
       });
   };
 
