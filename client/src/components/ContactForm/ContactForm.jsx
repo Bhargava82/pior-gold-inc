@@ -15,6 +15,15 @@ const ContactForm = () => {
             <input id="icon_telephone" type="tel" class="validate" />
             <label for="icon_telephone">Telephone</label>
           </div>
+          <div className="input-group">
+            <span className="input-group-text id=" inputGroup-sizing-lg>
+              Message
+            </span>
+            <textarea
+              className="form-control"
+              aria-label="With textarea"
+            ></textarea>
+          </div>
         </div>
       </form>
     </div>

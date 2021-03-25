@@ -5,7 +5,7 @@ import "./NavBar.css";
 const Navbar = () => {
   return (
     <nav>
-      <div className="nav-wrapper">
+      <div className="nav-wrapper" className="center">
         <Link to="/" className="brand-logo">
           Sone Ke Sikke
         </Link>
