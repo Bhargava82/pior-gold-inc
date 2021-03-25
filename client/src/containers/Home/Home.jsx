@@ -24,10 +24,10 @@ const Home = () => {
       })
       .catch((err) => {
         console.log(err);
-        // alert({
-        //   message: "No featured products found!",
-        //   type: "danger",
-        // });
+        alert({
+          message: "No featured products found!",
+          type: "danger",
+        });
       });
   }, []);
 
