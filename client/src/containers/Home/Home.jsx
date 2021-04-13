@@ -35,7 +35,7 @@ const Home = () => {
     <div className="container">
       <div className="row">
         <div className="col s12 center-align">
-          <img src={Logo} alt="Logo" style={{ width: "100%" }} />
+          <img src={Logo} alt="Logo" style={{ width: "50%" }} />
         </div>
       </div>
       <div className="row">
